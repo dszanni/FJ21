@@ -43,6 +43,8 @@
 				  	<td>${tarefa.id}</td>
 				  	<td>${tarefa.descricao}</td>
 				  	  	
+<!-- 				  	  	Pode ser utilizado um IF Ternário -->
+
 					  	<c:if test="${tarefa.finalizado eq false}">
 					  		<td id="tarefa_${tarefa.id}">
 					  			<a href="#" onClick="finalizaAgora(${tarefa.id})" >Finaliza agora!</a>

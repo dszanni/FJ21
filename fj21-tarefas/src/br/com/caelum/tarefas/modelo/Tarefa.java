@@ -9,10 +9,10 @@ import org.springframework.format.annotation.DateTimeFormat;
 public class Tarefa {
 	private Long id;
 	
-	@Size(min=5)
+	@Size(min=5)//ben Validation
 	private String descricao;
 	private boolean finalizado;
-	@DateTimeFormat(pattern="dd/MM/yyyy")
+	@DateTimeFormat(pattern="dd/MM/yyyy") //Necessario pq o Spring nao reconhece do nosso padrao
 	private Calendar dataFinalizacao;
 
 	public Long getId() {

@@ -20,7 +20,8 @@ public class TarefasController {
 	}
 
 	@RequestMapping("adicionaTarefa")
-	public String adiciona(@Valid Tarefa tarefa, BindingResult result) {
+	public String adiciona(@Valid Tarefa tarefa, BindingResult result) //@Valida Verifica se tem erros no atributo descricao e se tiver volta para o formulario
+	{
 
 		if (result.hasFieldErrors("descricao")) {
 			return "tarefa/formulario";
