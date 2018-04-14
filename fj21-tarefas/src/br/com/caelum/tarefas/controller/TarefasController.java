@@ -32,7 +32,7 @@ public class TarefasController {
 	}
 
 	@RequestMapping("listaTarefas")
-	public String lista(Model model) // Possui a request (Model model) recurdo do Spring
+	public String lista(Model model) // Possui a request (Model model) recurso do Spring o model é um objeto
 	{
 		JdbcTarefaDao dao = new JdbcTarefaDao();
 		model.addAttribute("tarefas", dao.lista());
@@ -43,7 +43,7 @@ public class TarefasController {
 	public String remove(Tarefa tarefa) {
 		JdbcTarefaDao dao = new JdbcTarefaDao();
 		dao.remove(tarefa);
-		return "redirect:listaTarefas";
+		return "redirect:listaTarefas";//o "Redirect" Redireciona para o metodo listaTarefas: "@RequestMapping("listaTarefas")"
 
 	}
 
