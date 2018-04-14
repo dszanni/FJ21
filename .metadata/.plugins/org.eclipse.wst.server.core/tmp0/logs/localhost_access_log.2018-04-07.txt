@@ -1,0 +1,13 @@
+127.0.0.1 - - [07/Apr/2018:13:56:28 -0300] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [07/Apr/2018:13:56:38 -0300] "GET /fj21-agenda/mvc?ParamLinklogica=AlteraContatoLogic&id=&nome=Teste&email=teste%40teste.com.br&endereco=teste&dataNascimento=04%2F02%2F2018 HTTP/1.1" 200 2892
+0:0:0:0:0:0:0:1 - - [07/Apr/2018:13:56:41 -0300] "GET /fj21-agenda/mvc?ParamLinklogica=RemoveContatoLogic&id=4 HTTP/1.1" 200 2413
+0:0:0:0:0:0:0:1 - - [07/Apr/2018:13:58:17 -0300] "GET /fj21-agenda/mvc?ParamLinklogica=RemoveContatoLogic&id=4 HTTP/1.1" 200 2413
+0:0:0:0:0:0:0:1 - - [07/Apr/2018:13:58:19 -0300] "GET /fj21-agenda/mvc?ParamLinklogica=RemoveContatoLogic&id=4 HTTP/1.1" 200 2413
+0:0:0:0:0:0:0:1 - - [07/Apr/2018:13:58:20 -0300] "GET /fj21-agenda/mvc?ParamLinklogica=AdicionaContatoLogic&id=3&nome=Teste&email=&endereco=teste&dataNascimento=04/02/2018 HTTP/1.1" 200 1202
+0:0:0:0:0:0:0:1 - - [07/Apr/2018:14:01:24 -0300] "GET /fj21-agenda/mvc?ParamLinklogica=AdicionaContatoLogic&id=4 HTTP/1.1" 200 1182
+127.0.0.1 - - [07/Apr/2018:16:52:46 -0300] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [07/Apr/2018:16:52:52 -0300] "GET /fj21-agenda/mvc?ParamLinklogica=ListaContatosLogic HTTP/1.1" 500 137
+0:0:0:0:0:0:0:1 - - [07/Apr/2018:16:53:45 -0300] "GET /fj21-agenda/mvc?ParamLinklogica=AdicionaContatoLogic&id=4 HTTP/1.1" 500 137
+127.0.0.1 - - [07/Apr/2018:16:54:38 -0300] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [07/Apr/2018:16:54:44 -0300] "GET /fj21-agenda/mvc?ParamLinklogica=AdicionaContatoLogic&id=4 HTTP/1.1" 200 1182
+0:0:0:0:0:0:0:1 - - [07/Apr/2018:16:54:53 -0300] "GET /fj21-agenda/mvc?ParamLinklogica=ListaContatosLogic HTTP/1.1" 200 2413

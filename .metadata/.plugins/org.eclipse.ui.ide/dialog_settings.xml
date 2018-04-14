@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="workingset_selection_history">
+		<item value="fj21-agenda"/>
+	</list>
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="/home/web7302/git/fj21-agenda"/>
+		<item value="/home/web7302/git"/>
+		<item value="/home/web7302/git/fj21-agenda-2"/>
+	</list>
+	<section name="CleanDialogSettings">
+		<item value="565" key="DIALOG_WIDTH"/>
+		<item value="false" key="TOGGLE_SELECTED"/>
+		<item value="379" key="DIALOG_HEIGHT"/>
+		<item value="519" key="DIALOG_X_ORIGIN"/>
+		<item value="198" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="ExternalProjectImportWizard">
+		<item value="false" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="/home/web7302/workspace2/fj21-agenda"/>
+			<item value="/home/web7302/workspace2"/>
+			<item value="/home/web7302/Downloads/FJ21-JavaWeb-2/FJ21-17032018-1/fj21-agenda2"/>
+			<item value="/home/web7302/workspace2/fj21-tarefas"/>
+			<item value="/home/web7302/workspace2/fj21-jdbc"/>
+			<item value="/home/web7302/workspace2/Servers"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
+		</list>
+	</section>
+	<section name="NewWizardAction">
+		<item value="org.eclipse.jdt.ui.wizards.JavaProjectWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+		</list>
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item value="449" key="DIALOG_X_ORIGIN"/>
+		<item value="214" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

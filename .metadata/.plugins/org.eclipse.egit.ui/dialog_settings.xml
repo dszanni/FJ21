@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="EGit.KnownHosts">
+		<item value="bitbucket.org"/>
+		<item value="git.eclipse.org"/>
+		<item value="github.com"/>
+	</list>
+	<list key="RepositorySelectionPage.UsedUris">
+		<item value="https://github.com/dszanni/fj21-agenda-2.git"/>
+		<item value="file:////home/web7302/workspace2"/>
+	</list>
+	<list key="CommitDialog.authorValues">
+		<item value="web7302 &lt;web7302@caelum57-06&gt;"/>
+	</list>
+	<list key="CommitDialog.committerValues">
+		<item value="web7302 &lt;web7302@caelum57-06&gt;"/>
+	</list>
+	<section name="org.eclipse.egit.ui.internal.dialogs.ResetTargetSelectionDialog.dialogBounds">
+		<item value="613" key="DIALOG_WIDTH"/>
+		<item value="1|Ubuntu|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
+		<item value="756" key="DIALOG_HEIGHT"/>
+		<item value="495" key="DIALOG_X_ORIGIN"/>
+		<item value="0" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.repository.CreateBranchPage$SourceSelectionDialog.dialogBounds">
+		<item value="613" key="DIALOG_WIDTH"/>
+		<item value="1|Ubuntu|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
+		<item value="487" key="DIALOG_HEIGHT"/>
+		<item value="0" key="DIALOG_X_ORIGIN"/>
+		<item value="-132" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.push.PushResultDialog.dialogBounds">
+		<item value="652" key="DIALOG_WIDTH"/>
+		<item value="1|Ubuntu|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
+		<item value="456" key="DIALOG_HEIGHT"/>
+		<item value="475" key="DIALOG_X_ORIGIN"/>
+		<item value="122" key="DIALOG_Y_ORIGIN"/>
+		<list key="sashWeights">
+			<item value="600"/>
+			<item value="400"/>
+		</list>
+	</section>
+	<section name="GitCommitMessageComponent">
+		<list key="/home/web7302/git/fj21-agenda/.git">
+			<item value="empty"/>
+		</list>
+		<list key="/home/web7302/git/.git">
+			<item value="empty"/>
+		</list>
+		<list key="/home/web7302/.git">
+			<item value="empty"/>
+		</list>
+		<list key="/home/web7302/git/fj21-agenda-2/.git">
+			<item value="empty"/>
+		</list>
+		<list key="/home/web7302/git/FJ21-JavaWeb-2/.git">
+			<item value="empty"/>
+		</list>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.staging.StagingView">
+		<item value="500,500" key="STAGING_SASH_FORM_WEIGHT"/>
+		<item value="false" key="sortItemState"/>
+		<item value="500,500" key="HORIZONTAL_SASH_FORM_WEIGHT"/>
+	</section>
+</section>
