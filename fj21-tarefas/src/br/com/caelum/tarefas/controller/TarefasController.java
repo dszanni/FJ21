@@ -14,10 +14,10 @@ import br.com.caelum.tarefas.modelo.Tarefa;
 @Controller
 public class TarefasController {
 
-	@RequestMapping("novaTarefa")
-	public String form() {
-		return "tarefa/formulario";
-	}
+//	@RequestMapping("novaTarefa")
+//	public String form() {
+//		return "tarefa/formulario";
+//	}
 
 	@RequestMapping("adicionaTarefa")
 	public String adiciona(@Valid Tarefa tarefa, BindingResult result) //@Valida Verifica se tem erros no atributo descricao e se tiver volta para o formulario
@@ -64,11 +64,17 @@ public class TarefasController {
 
 	}
 
-	@ResponseBody
+	@ResponseBody //Responde o status do protocolo HTTP: 200 / 404 / 500
 	@RequestMapping("finalizaTarefa")
 	public void finaliza(Long id) {
 		JdbcTarefaDao dao = new JdbcTarefaDao();
 		dao.finaliza(id);
 	}
+	
+//	public void finaliza(Tarefa tarefa) { --Poderia receber a tarefa ao inves do ID
+//		JdbcTarefaDao dao = new JdbcTarefaDao();
+//		dao.finaliza(tarefa.getId());
+//	}
+	
 
 }

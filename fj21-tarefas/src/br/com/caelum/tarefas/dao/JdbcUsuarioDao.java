@@ -30,8 +30,13 @@ public class JdbcUsuarioDao {
 		try {
 			PreparedStatement stmt = this.connection
 					.prepareStatement("select * from usuarios where login = ? and senha = ?");
+			
+			String senha = SHA1.hash(usuario.getSenha().getBytes());
+			
 			stmt.setString(1, usuario.getLogin());
-			stmt.setString(2, SHA1.hash(usuario.getSenha().getBytes()));
+			stmt.setString(2, senha);
+
+			System.out.println(senha);
 			ResultSet rs = stmt.executeQuery();
 
 			boolean encontrado = rs.next();

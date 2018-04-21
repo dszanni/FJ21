@@ -1,4 +1,3 @@
-
 package br.caelum.tarefas.crypto;
 
 import java.security.MessageDigest;
@@ -17,7 +16,7 @@ public class SHA1 {
         return sb.toString();
 	}
 	public static void main(String[] args) throws NoSuchAlgorithmException {
-		String test = "diego";
+		String test = "teste";
 		System.out.println(SHA1.hash(test.getBytes()));
 
 	}

@@ -17,6 +17,7 @@
 </head>
 
 	<body>
+	<!-- 					  			Java Script Framework JQuery abaixo -->
 		<script type="text/javascript">
 			function finalizaAgora(id){
 				$.post("finalizaTarefa", {'id' : id}, function(){
@@ -26,7 +27,7 @@
 		</script>
 		
 	
-		<table class="table table-sm">
+		<table class="table table-striped">
 			
 			<thead>
 				<tr>
@@ -47,7 +48,7 @@
 
 					  	<c:if test="${tarefa.finalizado eq false}">
 					  		<td id="tarefa_${tarefa.id}">
-					  			<a href="#" onClick="finalizaAgora(${tarefa.id})" >Finaliza agora!</a>
+					  			<a href="#" onClick="finalizaAgora(${tarefa.id})" >Finaliza agora!</a> 
 					  		</td>
 					  	</c:if>
 					  	
@@ -65,6 +66,6 @@
 			</c:forEach>
 		</table>
 		
-				<a href="novaTarefa">Criar Nova Tarefa</a>
+		<a href="novaTarefa">Criar Nova Tarefa</a>
 	</body>
 </html>
